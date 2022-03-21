@@ -1,0 +1,173 @@
+QWidget{
+    font: "微软雅黑";
+}
+
+QWidget#choiceWidget
+{
+    background-color:#F9FAFB;
+}
+
+QWidget#manageWidget,#showWidget
+{
+    background-color:#FFFFFF;
+}
+
+QListWidget#notelistWidget
+{
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+QFontComboBox
+{
+    background:transparent;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+QLineEdit
+{
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+QLineEdit#noteHeadlineEdit
+{
+    background:transparent;
+}
+QLineEdit#searchlineEdit
+{
+    background-color:#f7f7f7;
+    border-radius:15px;
+}
+QTextEdit
+{
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+QPushButton
+{
+    background-color: rgba(255, 255, 255, 0%);
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+QPushButton:hover{
+    background-color: rgba(215, 215, 215, 30%);
+}
+QPushButton:pressed
+{
+    /*左内边距为3像素，让按下时字向右移动3像素*/
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/
+    padding-top:3px;
+}
+QPushButton::menu-indicator
+{
+    image:none;
+}
+QPushButton#headBt{
+    border-radius:5px;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+
+QPushButton#newBuildBt,#noteshareBt,#saveNoteBt{
+    background-color: #5B89FE;
+    border-color: rgb(255, 255, 255);
+    color:#ffffff;
+    border-radius:5px;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+
+QPushButton#noteshareBt:hover{
+    background-color: rgb(52, 174, 255);
+}
+QPushButton#saveNoteBt:hover{
+    background-color: rgb(52, 174, 255);
+}
+QPushButton#newBuildBt:hover{
+    background-color: rgb(52, 174, 255);
+}
+
+QPushButton#upgradeBt,#synchronizationBt,#needDealBt,#accelerateBt,#newestBt,#JiaxingBt,#shareBt,#folderBt,#recycleBt,#mode1Bt,#mode2Bt,#mode3Bt
+{
+    color:#000000;
+    background-color: rgba(255, 255, 255, 0%);
+    border-radius:10px;
+    border:1px solid;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : none;
+}
+
+/*靠近按钮样式*/
+QPushButton#needDealBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+/*按钮焦点（选中）样式*/
+QPushButton#needDealBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#accelerateBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#accelerateBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#newestBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#newestBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#JiaxingBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#JiaxingBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#shareBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#shareBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#folderBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#folderBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#recycleBt:hover{
+    background-color: rgba(215, 215, 215, 30%);
+    color:rgb(44 , 137 , 255);
+}
+QPushButton#recycleBt:focus{
+    border-bottom-color:rgb(137 , 137 , 137);
+    color:rgb(44 , 137 , 255);
+}

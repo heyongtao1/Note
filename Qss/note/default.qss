@@ -1,0 +1,19 @@
+QWidget
+{
+    background-color:rgb(255, 255, 255);
+    font: "微软雅黑";
+}
+
+QLabel{
+    background-color: transparent;
+    color:#000000;
+}
+
+QPushButton#savePathBt,#otherBt{
+    background-color: rgba(238, 238, 238, 0%);
+    color:#737373;
+    border-bottom : none;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+}
